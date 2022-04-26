@@ -1,0 +1,1481 @@
+INCLUDE Irvine32.inc
+
+.data
+temp dword ?
+result dword ?
+.code
+
+main PROC
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+		mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,1
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	call crlf
+
+	;222222222222222222222222222222222222222222222222
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,2
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	call crlf
+	;333333333333333333333333333333333333
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,3
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	call crlf
+	;4444444444444444444444444444444
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,4
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	call crlf
+	;5555555555555555555555555555555555555
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,5
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	call crlf
+	;666666666666666666666666666666666666
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,6
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	call crlf
+	;7777777777777777777777777777777777777777
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,7
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	call crlf
+	;8888888888888888888888888888888888888888888
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,8
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	call crlf
+	;999999999999999999999999999999999999
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,1
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,2
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,3
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,4
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,5
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,6
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,7
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+	
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,8
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+	mov eax,9
+	mov temp,eax
+	call writedec
+	mov eax, "*"
+	call writechar
+	mov ebx,9
+	mov eax,temp
+	mul ebx
+	mov result ,eax
+	mov eax,ebx
+	call writedec
+	mov eax,"="
+	call writechar
+	mov eax,result
+	call writedec
+	mov eax,0h
+	call writechar
+
+main ENDP
+END main
